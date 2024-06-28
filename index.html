@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400&display=swap">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand d-inline" href="#">
+            <img src="navbar.jpg" alt="Logo" width="65" height="65" class="d-inline-block align-text-center">
+            <b id="nav">Navbar</b>
+
+            <form class="container-fluid justify-content-start d-inline">
+                <button class="btn btn-outline-success me-2" type="button">HOME</button>
+                <button class="btn btn-sm btn-outline-warning theme-toggle" type="button" onclick="toggleTheme()" id="liveAlertBtn">CHANGE THEME</button>
+                <div id="liveAlertPlaceholder"></div>
+            </form>
+          </a>
+          <div class="btn-group dropstart" id="drop">
+            <button type="button" class="btn btn-outline-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown-Menu
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="marvel.html">MARVEL</a></li>
+                <li><a class="dropdown-item" href="dc.html">DC</a></li>
+            </ul>
+          </div>
+          <div id="clock"></div>
+          
+        </div>
+    </nav>
+
+    <div id="image"><b><p>ⒾⓂⒶⒼⒺ ⒼⒶⓁⓁⒺⓇⓎ</p></b></div>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="marveldc.jpg" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+          <img src="8-4032_2_1.jpg" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+          <img src="Justice-League.jpg" class="d-block w-100" >
+        </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="end">
+      <div class="end-content"> <br><br>PHONE <br> <br><br> 8984******</div>
+      <div class="end-content">  <br><br>EMAIL <br><br><br>riteshroutray2005@gmail.com</div>
+      <div class="end-content">    </BR><a href="#">TERMS</a> <BR><BR> </BR> <a href="#">PRIVACY</a></div>
+      <div class="end-content"> <br><br><br> Copyright &#169; 2023</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+      <script src="app.js"></script>
+</body>
+</html>
